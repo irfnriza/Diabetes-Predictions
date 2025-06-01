@@ -161,31 +161,31 @@ Untuk memahami karakteristik data lebih mendalam, dilakukan beberapa tahapan ana
 
 **1. Analisis Distribusi Variabel**
 
-![Scatter Plot Matrix Variabel Kesehatan](assets/plot0.png)
+![Scatter Plot Matrix Variabel Kesehatan](https://github.com/irfnriza/Diabetes-Predictions/blob/main/assets/plot0.png?raw=true)
 
 Visualisasi scatter plot matrix menunjukkan distribusi dan hubungan antar variabel kesehatan utama. Dapat diamati bahwa sebagian besar variabel memiliki distribusi biner yang jelas, dengan BMI sebagai satu-satunya variabel kontinu yang menunjukkan distribusi normal dengan beberapa outlier.
 
 **2. Analisis Distribusi Variabel Gaya Hidup**
 
-![Scatter Plot Matrix Kebiasaan Hidup](assets/plot1.png)
+![Scatter Plot Matrix Kebiasaan Hidup](https://github.com/irfnriza/Diabetes-Predictions/blob/main/assets/plot1.png?raw=true)
 
 Matrix ini memperlihatkan distribusi variabel-variabel terkait gaya hidup seperti merokok, aktivitas fisik, konsumsi buah dan sayuran, serta konsumsi alkohol. Mayoritas individu menunjukkan gaya hidup yang relatif sehat dengan aktivitas fisik yang cukup dan konsumsi buah-sayuran yang baik.
 
 **3. Analisis Korelasi - Variabel Kesehatan**
 
-![Correlation Heatmap Diabetes dengan Variabel Kesehatan](assets/heatmaps0.png)
+![Correlation Heatmap Diabetes dengan Variabel Kesehatan](https://github.com/irfnriza/Diabetes-Predictions/blob/main/assets/heatmaps0.png?raw=true)
 
 Heatmap korelasi menunjukkan hubungan diabetes dengan berbagai kondisi kesehatan. Terlihat bahwa diabetes memiliki korelasi positif yang cukup kuat dengan tekanan darah tinggi (0.26), kesehatan umum yang buruk (0.29), dan usia (0.18). BMI juga menunjukkan korelasi positif (0.22) dengan diabetes.
 
 **4. Analisis Korelasi - Variabel Gaya Hidup**
 
-![Correlation Heatmap Diabetes dengan Variabel Kebiasaan Hidup](assets/heatmaps1.png)
+![Correlation Heatmap Diabetes dengan Variabel Kebiasaan Hidup](https://github.com/irfnriza/Diabetes-Predictions/blob/main/assets/heatmaps1.png?raw=true)
 
 Korelasi diabetes dengan variabel gaya hidup menunjukkan bahwa kesulitan berjalan memiliki korelasi positif tertinggi (0.22) dengan diabetes. Menariknya, aktivitas fisik menunjukkan korelasi negatif (-0.12), mengindikasikan bahwa aktivitas fisik dapat bersifat protektif terhadap diabetes.
 
 **5. Analisis Komponen Utama (PCA)**
 
-![PCA Projection 2D](assets/pca.png)
+![PCA Projection 2D](https://github.com/irfnriza/Diabetes-Predictions/blob/main/assets/pca.png?raw=true)
 
 Visualisasi PCA 2D menunjukkan pemisahan yang cukup jelas antara individu dengan diabetes (biru) dan tanpa diabetes (merah) dalam ruang komponen utama. Hal ini mengindikasikan bahwa kombinasi variabel-variabel dalam dataset dapat membedakan kedua kelompok dengan cukup baik, yang menjadi dasar untuk pengembangan model prediktif.
 
@@ -502,7 +502,7 @@ F1-Score adalah harmonic mean dari precision dan recall, memberikan keseimbangan
 
 ### Performa Model Basic (Sebelum Tuning)
 
-![Plot Evaluasi Model Basic](assets/evaluasi0.png)
+![Plot Evaluasi Model Basic](https://github.com/irfnriza/Diabetes-Predictions/blob/main/assets/evaluasi0.png?raw=true)
 
 Berdasarkan kurva ROC untuk model basic, berikut adalah hasil AUC-ROC:
 
@@ -521,7 +521,7 @@ Berdasarkan kurva ROC untuk model basic, berikut adalah hasil AUC-ROC:
 
 ### Performa Model Setelah Tuning
 
-![Plot Evaluasi Model Hyperparameter Tuning](assets/evaluasi1.png)
+![Plot Evaluasi Model Hyperparameter Tuning](https://github.com/irfnriza/Diabetes-Predictions/blob/main/assets/evaluasi1.png?raw=true)
 
 Setelah dilakukan hyperparameter tuning, berikut adalah perubahan performa:
 
