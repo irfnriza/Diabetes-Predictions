@@ -161,7 +161,7 @@ Untuk memahami karakteristik data lebih mendalam, dilakukan beberapa tahapan ana
 
 **1. Analisis Distribusi Variabel**
 
-![Scatter Plot Matrix Variabel Kesehatan](https://github.com/irfnriza/Diabetes-Predictions/blob/main/assets/plot0.png?raw=true)
+![Scatter Plot Matrix Variabel Kesehatan](https://github.com/irfnriza/Diabetes-Predictions/blob/main/assets/plot0.png)
 
 Visualisasi scatter plot matrix menunjukkan distribusi dan hubungan antar variabel kesehatan utama. Dapat diamati bahwa sebagian besar variabel memiliki distribusi biner yang jelas, dengan BMI sebagai satu-satunya variabel kontinu yang menunjukkan distribusi normal dengan beberapa outlier.
 
